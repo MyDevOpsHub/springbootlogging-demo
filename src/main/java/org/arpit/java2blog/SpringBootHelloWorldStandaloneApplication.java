@@ -32,5 +32,7 @@ public class SpringBootHelloWorldStandaloneApplication implements CommandLineRun
         LOGGER.warn("for warning purpose new ");
         LOGGER.error("for logging errors new ");
 
+        System.out.println("New code added here");
+
     }
 }
