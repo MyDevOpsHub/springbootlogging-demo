@@ -35,4 +35,8 @@ public class SpringBootHelloWorldStandaloneApplication implements CommandLineRun
         System.out.println("New code added here");
 
     }
+
+    public void sayHello(){
+        System.out.println("Hi , hello");
+    }
 }
