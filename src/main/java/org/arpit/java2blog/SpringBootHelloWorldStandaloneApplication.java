@@ -26,7 +26,7 @@ public class SpringBootHelloWorldStandaloneApplication implements CommandLineRun
     public void run(String... arg0) throws Exception {
 
         System.out.println("Country Name: " + countryBean.getCountryName());
-        LOGGER.trace("for tracing purpose new");
+        //LOGGER.trace("for tracing purpose new") =======;
         LOGGER.debug("for debugging purpose new ");
         LOGGER.info("for informational purpose new ");
         LOGGER.warn("for warning purpose new ");
